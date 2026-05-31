@@ -16,7 +16,7 @@ export default function AboutSection() {
           <div className="space-y-2 md:space-y-3 flex flex-col justify-center">
             <p className="text-[#FBBF24] font-bold text-sm sm:text-lg">Where to Next? Let&apos;s find out together.</p>
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1A1A1A] leading-tight text-balance">
-              Explore the World with Rajdani Travels
+              Explore the World with Rajdanni Travels
             </h1>
 
             <div className="space-y-1.5 md:space-y-2 text-base sm:text-base md:text-lg text-[#666666] leading-relaxed">

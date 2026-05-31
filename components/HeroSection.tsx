@@ -12,12 +12,12 @@ export default function HeroSection() {
           {/* Content - Centered */}
           <p className="text-[#FBBF24] font-bold text-sm md:text-base lg:text-lg">Where to Next? Let&apos;s find out together.</p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1A1A1A] leading-tight text-balance">
-            Explore the World with Rajdani Travels
+            Explore the World with Rajdanni Travels
           </h1>
           <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-[#1A1A1A]">Book Your Next Adventure Today!</h2>
           
           <p className="text-sm sm:text-base md:text-lg text-[#666666] leading-relaxed max-w-3xl">
-            Whether you&apos;re an adventure enthusiast, a culture lover, or simply in need of a peaceful escape, Rajdani Travels has the perfect journey for you.
+            Whether you&apos;re an adventure enthusiast, a culture lover, or simply in need of a peaceful escape, Rajdanni Travels has the perfect journey for you.
           </p>
           
           <p className="text-sm sm:text-base md:text-lg text-[#666666] leading-relaxed max-w-3xl">
@@ -26,13 +26,13 @@ export default function HeroSection() {
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-4 justify-center">
             <button 
-              onClick={() => sendToWhatsApp('Hey Rajdani Travels! I want to plan my next trip.')}
+              onClick={() => sendToWhatsApp('Hey Rajdanni Travels! I want to plan my next trip.')}
               className="px-6 md:px-8 py-2 md:py-3 bg-[#FBBF24] text-[#1A1A1A] font-bold rounded-full border-2 border-[#1A1A1A] hover:bg-[#F59E0B] transition text-sm md:text-base cursor-pointer"
             >
               Plan Your Trip
             </button>
             <button 
-              onClick={() => sendToWhatsApp('Hey Rajdani Travels! I would like to explore your tour packages.')}
+              onClick={() => sendToWhatsApp('Hey Rajdanni Travels! I would like to explore your tour packages.')}
               className="px-6 md:px-8 py-2 md:py-3 bg-white text-[#1A1A1A] font-bold rounded-full border-2 border-[#1A1A1A] hover:bg-[#FFF8F0] transition text-sm md:text-base cursor-pointer"
             >
               Explore Packages

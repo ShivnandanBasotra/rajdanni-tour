@@ -7,7 +7,7 @@ export default function CTABanner() {
         </h2>
         
         <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
-          Book your dream vacation with Rajdani Travels and explore unforgettable destinations with comfort and confidence.
+          Book your dream vacation with Rajdanni Travels and explore unforgettable destinations with comfort and confidence.
         </p>
 
         <button className="px-6 sm:px-8 md:px-12 py-2 md:py-4 bg-[#FBBF24] text-[#1A1A1A] font-bold text-sm md:text-base lg:text-lg rounded-full border-2 border-[#FBBF24] hover:bg-[#F59E0B] transition">

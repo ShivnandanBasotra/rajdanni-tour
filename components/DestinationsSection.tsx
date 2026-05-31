@@ -119,7 +119,7 @@ export default function DestinationsSection() {
                     </p>
                   </div>
                   <button 
-                    onClick={() => sendToWhatsApp(`Hey Rajdani Travels! I'm interested in visiting ${destination.name}, ${destination.country}.`)}
+                    onClick={() => sendToWhatsApp(`Hey Rajdanni Travels! I'm interested in visiting ${destination.name}, ${destination.country}.`)}
                     className="rounded-full bg-[#FBBF24] p-3 text-[#1A1A1A] hover:bg-[#F59E0B] transition-colors border-2 border-[#1A1A1A] cursor-pointer"
                   >
                     <ArrowRight size={20} />

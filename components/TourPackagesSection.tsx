@@ -40,10 +40,10 @@ export default function TourPackagesSection() {
         {/* Section Header */}
         <div className="text-center space-y-3 md:space-y-6 mb-8 md:mb-12 max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1A1A1A] text-balance">
-            Rajdani Tour Packages
+            Rajdanni Tour Packages
           </h2>
           <p className="text-base sm:text-base md:text-lg text-[#666666] leading-relaxed">
-            Embark on an unforgettable journey with Rajdani Travels&apos; thoughtfully crafted tour packages. From serene weekend escapes to immersive cultural holidays and thrilling road adventures, our curated collection of tours invites you to discover the world beyond the ordinary. At Rajdani Travels, we blend comfort, adventure, and local insight to bring you travel experiences that leave lasting memories.
+            Embark on an unforgettable journey with Rajdanni Travels&apos; thoughtfully crafted tour packages. From serene weekend escapes to immersive cultural holidays and thrilling road adventures, our curated collection of tours invites you to discover the world beyond the ordinary. At Rajdanni Travels, we blend comfort, adventure, and local insight to bring you travel experiences that leave lasting memories.
           </p>
         </div>
 
@@ -72,16 +72,16 @@ export default function TourPackagesSection() {
         </div>
 
         {/* Package Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 justify-items-center sm:justify-items-stretch">
           {packages.map((pkg) => (
             <div
               key={pkg.id}
-              className="bg-white rounded-lg border-2 border-[#1A1A1A] overflow-hidden hover:shadow-xl hover:scale-105 transition-all"
+              className="bg-white rounded-lg border-2 border-[#1A1A1A] overflow-hidden hover:shadow-xl hover:scale-105 transition-all w-full max-w-xs sm:max-w-none"
             >
               {/* Image */}
-              <div className="w-full h-40 sm:h-48 border-b-2 border-[#1A1A1A] overflow-hidden">
-                <img 
-                  src={pkg.image} 
+              <div className="w-full aspect-[4/3] border-b-2 border-[#1A1A1A] overflow-hidden">
+                <img
+                  src={pkg.image}
                   alt={pkg.name}
                   className="w-full h-full object-cover"
                 />
@@ -91,9 +91,9 @@ export default function TourPackagesSection() {
               <div className="p-4 md:p-6 space-y-3 md:space-y-4">
                 <h3 className="text-base md:text-xl font-bold text-[#1A1A1A] text-balance">{pkg.name}</h3>
                 <p className="text-sm md:text-base text-[#666666]">Contact For More Details</p>
-                
-                <button 
-                  onClick={() => sendToWhatsApp(`Hey Rajdani Travels! I want to book ${pkg.name}.`)}
+
+                <button
+                  onClick={() => sendToWhatsApp(`Hey Rajdanni Travels! I want to book ${pkg.name}.`)}
                   className="w-full px-4 md:px-6 py-2 bg-[#FBBF24] text-[#1A1A1A] font-bold rounded-full border-2 border-[#1A1A1A] hover:bg-[#F59E0B] transition text-sm md:text-base cursor-pointer"
                 >
                   Book Now

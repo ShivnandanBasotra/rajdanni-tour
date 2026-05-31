@@ -18,14 +18,15 @@ export default function TransportSection() {
     <section id="transport" className="py-8 md:py-16 lg:py-24 bg-white border-b-2 border-[#1A1A1A]">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+
           {/* Left Column */}
-          <div className="space-y-4 md:space-y-8 flex flex-col items-center md:items-start justify-center">
+          <div className="flex flex-col items-center md:items-start gap-6">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1A1A1A] leading-tight text-center md:text-left text-balance">
-              Transport Services by Rajdani Travels
+              Transport Services by Rajdanni Travels
             </h2>
 
-            <button 
-              onClick={() => sendToWhatsApp('Hey Rajdani Travels! I need transportation services.')}
+            <button
+              onClick={() => sendToWhatsApp('Hey Rajdanni Travels! I need transportation services.')}
               className="w-full md:w-auto px-6 md:px-8 py-2 md:py-3 bg-[#1A1A1A] text-white font-bold rounded hover:bg-[#333333] transition text-sm md:text-base cursor-pointer"
             >
               Book Now
@@ -34,6 +35,7 @@ export default function TransportSection() {
 
           {/* Right Column */}
           <div className="space-y-6 md:space-y-8">
+
             {/* Services List */}
             <div className="space-y-3 md:space-y-4">
               <h3 className="text-xl md:text-2xl font-bold text-[#1A1A1A]">Our Transport Services Include</h3>
@@ -59,6 +61,7 @@ export default function TransportSection() {
                 Or Simply Mention Your Transport Requirements In Our Tour Enquiry Form!
               </p>
             </div>
+
           </div>
         </div>
       </div>

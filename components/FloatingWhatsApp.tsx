@@ -12,7 +12,7 @@ export default function FloatingWhatsApp() {
 
 
   const handleStartChat = () => {
-    sendToWhatsApp('Hey Rajdani Travels! I want to know more about your tour packages.');
+    sendToWhatsApp('Hey Rajdanni Travels! I want to know more about your tour packages.');
   };
 
 

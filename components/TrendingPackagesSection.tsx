@@ -49,73 +49,76 @@ export default function TrendingPackagesSection() {
             Trending Tour Packages
           </h2>
           <p className="text-sm sm:text-base md:text-base lg:text-lg text-[#1A1A1A] leading-relaxed">
-            At <strong>Rajdani Travels</strong>, We Believe That Travel Is More Than Just Ticking Off Destinations—It&apos;s About Creating Unforgettable Experiences, Exploring New Cultures, And Discovering The Beauty Our World Has To Offer. Whether You&apos;re Dreaming Of Snow-Capped Mountains, Golden Deserts, Sacred Shrines, Or Vibrant Cities, <strong>We&apos;re Here To Make Your Journey Seamless, Affordable, And Truly Special.</strong>
+            At <strong>Rajdanni Travels</strong>, We Believe That Travel Is More Than Just Ticking Off Destinations—It&apos;s About Creating Unforgettable Experiences, Exploring New Cultures, And Discovering The Beauty Our World Has To Offer. Whether You&apos;re Dreaming Of Snow-Capped Mountains, Golden Deserts, Sacred Shrines, Or Vibrant Cities, <strong>We&apos;re Here To Make Your Journey Seamless, Affordable, And Truly Special.</strong>
           </p>
         </div>
 
-        {/* Package Cards - 4 in one row on desktop, 2 on tablet, 1 on mobile */}
+        {/* Package Cards */}
         <div className="flex justify-center px-4 sm:px-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 w-full max-w-sm sm:max-w-full">
             {trendingPackages.map((pkg) => (
               <div
                 key={pkg.id}
-                className="bg-white flex flex-col text-center p-4 md:p-6 border border-gray-200 rounded"
+                className="bg-white flex flex-col text-center border border-gray-200 rounded overflow-hidden"
               >
-                {/* Image */}
-                <div className="w-full aspect-video mb-3 md:mb-4 -mx-4 md:-mx-6 -mt-4 md:-mt-6 rounded-t overflow-hidden">
-                <img 
-                  src={pkg.image} 
-                  alt={pkg.name}
-                  className="w-full h-full object-cover"
-                />
+                {/* Image — true full-bleed, no negative margin hacks */}
+                <div className="w-full aspect-video flex-shrink-0">
+                  <img
+                    src={pkg.image}
+                    alt={pkg.name}
+                    className="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                {/* Card Content */}
+                <div className="flex flex-col flex-1 p-4 md:p-6">
+                  {/* Card Title */}
+                  <h3 className="text-base md:text-base font-bold text-[#1A1A1A] mb-2 text-balance">{pkg.name}</h3>
+
+                  {/* Duration */}
+                  <p className="text-xs sm:text-sm font-bold text-[#1A1A1A] md:mb-3">{pkg.duration}</p>
+
+                  {/* Itinerary Line */}
+                  <p className="text-xs sm:text-sm text-[#666666] mb-1 sm:mb-2 md:mb-3 leading-snug">
+                    Itinerary: {pkg.highlights.map((h) => {
+                      if (h === 'Yamunotri') return '📍 Yamunotri';
+                      if (h === 'Gangotri') return '→ Gangotri';
+                      if (h === 'Kedarnath') return '→ Kedarnath';
+                      if (h === 'Badrinath') return '→ Badrinath';
+                      if (h === 'Srinagar') return '📍 Srinagar';
+                      if (h === 'Baltal') return '→ Baltal';
+                      if (h === 'Amarnath Cave') return '→ Amarnath Cave';
+                      if (h === 'Helicopter Option Available') return '🚁 Helicopter Option Available';
+                      if (h === 'Katra') return '📍 Katra (2N)';
+                      if (h === 'Spiritual sightseeing') return '📍 Haridwar (2N)';
+                      return h;
+                    }).join(' ')}
+                  </p>
+
+                  {/* Includes */}
+                  <p className="text-xs sm:text-sm text-[#666666] mb-3 leading-snug">
+                    {pkg.includes.map((item, idx) => {
+                      const icon =
+                        item === 'Cab Transfers' ? '🚗' :
+                        item === 'Hotel Stay' ? '🏨' :
+                        item === 'Meals' ? '🍽️' :
+                        item === 'Darshan & Guidance' ? '🙏' :
+                        item === 'Yatra Assistance' ? '🧭' :
+                        item === 'Sightseeing' ? '👁️' : '✓';
+                      return `${icon} ${item}${idx < pkg.includes.length - 1 ? ' | ' : ''}`;
+                    }).join('')}
+                  </p>
+
+                  {/* Book Now Button */}
+                  <button
+                    onClick={() => sendToWhatsApp(`Hey Rajdanni Travels! I want to book ${pkg.name}.`)}
+                    className="w-full px-4 md:px-6 py-2 bg-[#FBBF24] text-[#1A1A1A] font-bold rounded-sm border-2 border-[#1A1A1A] hover:bg-[#F59E0B] transition mt-auto text-xs md:text-sm cursor-pointer"
+                  >
+                    Book Now
+                  </button>
+                </div>
               </div>
-
-              {/* Card Title */}
-              <h3 className="text-base md:text-base font-bold text-[#1A1A1A] mb-2 text-balance">{pkg.name}</h3>
-
-              {/* Duration */}
-              <p className="text-xs sm:text-sm font-bold text-[#1A1A1A] md:mb-3">{pkg.duration}</p>
-
-              {/* Itinerary Line */}
-              <p className="text-xs sm:text-sm text-[#666666] mb-1 sm:mb-2 md:mb-3 leading-snug">
-                Itinerary: {pkg.highlights.map((h) => {
-                  if (h === 'Yamunotri') return '📍 Yamunotri';
-                  if (h === 'Gangotri') return '→ Gangotri';
-                  if (h === 'Kedarnath') return '→ Kedarnath';
-                  if (h === 'Badrinath') return '→ Badrinath';
-                  if (h === 'Srinagar') return '📍 Srinagar';
-                  if (h === 'Baltal') return '→ Baltal';
-                  if (h === 'Amarnath Cave') return '→ Amarnath Cave';
-                  if (h === 'Helicopter Option Available') return '🚁 Helicopter Option Available';
-                  if (h === 'Katra') return '📍 Katra (2N)';
-                  if (h === 'Spiritual sightseeing') return '📍 Haridwar (2N)';
-                  return h;
-                }).join(' ')}
-              </p>
-
-              {/* Includes */}
-              <p className="text-xs sm:text-sm  text-[#666666] mb-3 leading-snug">
-                {pkg.includes.map((item, idx) => {
-                  const icon = 
-                    item === 'Cab Transfers' ? '🚗' :
-                    item === 'Hotel Stay' ? '🏨' :
-                    item === 'Meals' ? '🍽️' :
-                    item === 'Darshan & Guidance' ? '🙏' :
-                    item === 'Yatra Assistance' ? '🧭' :
-                    item === 'Sightseeing' ? '👁️' : '✓';
-                  return `${icon} ${item}${idx < pkg.includes.length - 1 ? ' | ' : ''}`;
-                }).join('')}
-              </p>
-
-              {/* Book Now Button */}
-              <button 
-                onClick={() => sendToWhatsApp(`Hey Rajdani Travels! I want to book ${pkg.name}.`)}
-                className="w-full px-4 md:px-6 py-2 bg-[#FBBF24] text-[#1A1A1A] font-bold rounded-sm border-2 border-[#1A1A1A] hover:bg-[#F59E0B] transition mt-auto text-xs md:text-sm cursor-pointer"
-              >
-                Book Now
-              </button>
-            </div>
-          ))}
+            ))}
           </div>
         </div>
       </div>

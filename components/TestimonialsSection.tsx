@@ -22,7 +22,7 @@ const testimonials = [
     name: 'Amit Patel',
     location: 'Ahmedabad, India',
     rating: 5,
-    review: 'Affordable pricing with zero compromise on comfort. Rajdani Travels offers the best value for money tours in India.',
+    review: 'Affordable pricing with zero compromise on comfort. Rajdanni Travels offers the best value for money tours in India.',
   },
   {
     id: 4,

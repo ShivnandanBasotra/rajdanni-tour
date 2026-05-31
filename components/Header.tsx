@@ -14,7 +14,7 @@ export default function Header() {
         <div className="flex items-center">
           <Image
             src="/images/logo.png"
-            alt="Rajdani Travels"
+            alt="Rajdanni Travels"
             width={200}
             height={80}
             className="h-12 md:h-14 w-auto"

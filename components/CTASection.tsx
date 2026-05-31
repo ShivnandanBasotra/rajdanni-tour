@@ -24,11 +24,11 @@ export default function CTASection() {
               Ready to Travel?
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-gray-300 leading-relaxed">
-              Join thousands of travelers who&apos;ve discovered unforgettable experiences with Rajdani Travels. Start your adventure today.
+              Join thousands of travelers who&apos;ve discovered unforgettable experiences with Rajdanni Travels. Start your adventure today.
             </p>
             <div className="pt-2 md:pt-4">
               <button 
-                onClick={() => sendToWhatsApp('Hey Rajdani Travels! I want to book a tour package.')}
+                onClick={() => sendToWhatsApp('Hey Rajdanni Travels! I want to book a tour package.')}
                 className="inline-flex items-center gap-2 rounded-full bg-[#FBBF24] px-6 md:px-8 py-2 md:py-4 text-sm md:text-base lg:text-lg font-bold text-[#1A1A1A] hover:bg-[#F59E0B] transition-colors border-2 border-white cursor-pointer"
               >
                 Book Now <ArrowRight size={18} className="hidden sm:inline" />

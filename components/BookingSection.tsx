@@ -30,7 +30,7 @@ export default function BookingSection() {
     e.preventDefault();
     
     // Create personalized message with form data
-    const enquiryMessage = `Hey Rajdani Travels! I want to book a tour package.
+    const enquiryMessage = `Hey Rajdanni Travels! I want to book a tour package.
 
 Name: ${formData.name}
 Phone: ${formData.phone}
