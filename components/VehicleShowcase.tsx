@@ -1,13 +1,13 @@
 const vehicles = [
   // Top row - 4 vehicles
-  { id: 1, name: '5 Seater | Etios', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%2031%2C%202026%2C%2002_34_00%20PM-itCtwKpsRri8aw4IvnbBoUdn85v6XU.png' },
-  { id: 2, name: '7 Seater | Ertiga', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%2031%2C%202026%2C%2002_32_35%20PM-Hg1JkXoECtGjZd4wWjoNJgArASHLXk.png' },
-  { id: 3, name: '7 Seater | Innova', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%2031%2C%202026%2C%2002_31_22%20PM-MYfh6A6YVUZBdgyb9emOLc6Oeh4UoL.png' },
-  { id: 4, name: '20+ Seater | Force', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.23.03%20PM%20%281%29-CLgwmrs12ZwB4dCzwSiwJJkP7NUKWu.jpeg' },
+  { id: 1, name: '5 Seater | Etios', image: '/images/etios.png' },
+  { id: 2, name: '7 Seater | Ertiga', image: '/images/eritrea.png' },
+  { id: 3, name: '7 Seater | Innova', image: '/images/innova.png' },
+  { id: 4, name: '20+ Seater | Force', image: '/images/forcelarge.jpeg' },
   // Bottom row - 3 vehicles
-  { id: 5, name: '30 Seater | Bus', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.23.02%20PM%20%282%29-3vhdxIU1qyEaRZukUeWC3FycdAEp6T.jpeg' },
-  { id: 6, name: '27 Seater | Bus', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.23.02%20PM%20%281%29-YN8bvuHryHBNbZuXNVExYiNaisUjp7.jpeg' },
-  { id: 7, name: '12 Seater | Force', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.23.03%20PM-a8UZfyFIqh6M6wAQtqD9RGCAIZlRJZ.jpeg' },
+  { id: 5, name: '30 Seater | Bus', image: '/images/buslg.jpeg' },
+  { id: 6, name: '27 Seater | Bus', image: '/images/bussh.jpeg' },
+  { id: 7, name: '12 Seater | Force', image: '/images/forceshort.jpeg' },
 ];
 
 export default function VehicleShowcase() {

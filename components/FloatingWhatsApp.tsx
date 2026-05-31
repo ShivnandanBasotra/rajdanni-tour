@@ -24,7 +24,7 @@ export default function FloatingWhatsApp() {
         onClick={handleStartChat}
       >
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E2%80%94Pngtree%E2%80%94whatsapp%20phone%20icon%20vector_8704826-7CFxK8Aq2cYzo2p7zu9cQS5Z7fENVF.png"
+          src="/images/whatsapp.png"
           alt="WhatsApp"
           width={32}
           height={32}

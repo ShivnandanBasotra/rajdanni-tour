@@ -9,24 +9,24 @@ const sendToWhatsApp = (message: string) => {
 };
 
 const indianPackages = [
-  { id: 1, name: 'Kashmir Tour Package', emoji: '🏔️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.02.25%20PM-5DQK6XmC0mdckZY2fRf90GdM5POFqN.jpeg' },
-  { id: 2, name: 'Himachal Tour Package', emoji: '🏞️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.01.56%20PM-woC1M7Mq7CCM59a99qFIrHjSFfmOjE.jpeg' },
-  { id: 3, name: 'Masoori Tour Package', emoji: '⛰️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the-mall-road-mussoorie-tourism-header-QjRrgEsGBoBWFkd6mIXDe6ac1sEzZD.jpg' },
-  { id: 4, name: 'Uttarakhand Tour Package', emoji: '🌲', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.16.13%20PM-xqDIpF3KDKSP8zHPnscuo9VqD3MrTH.jpeg' },
-  { id: 5, name: 'Delhi | Agra Tour Package', emoji: '🕌', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.11.49%20PM-mb7XMxXaNfs6JCEXKZKRI7Tr61eKTU.jpeg' },
-  { id: 6, name: 'Goa Tour Package', emoji: '🏖️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.08.03%20PM-t17xBweRwrQHlfgSO5tkbQCd1TjxYt.jpeg' },
-  { id: 7, name: 'Rajasthan Tour Package', emoji: '🏰', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.12.54%20PM-DKCq1gotaLh9z95dKQ5dBI5ON30x6B.jpeg' },
-  { id: 8, name: 'Leh Ladakh Tour Package', emoji: '🗻', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.16.52%20PM-zsJha3WDeQZokbtdipNPfFFSMB5TKr.jpeg' },
-  { id: 9, name: 'Kerala Tour Package', emoji: '🌴', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/64518-rLYwfKGGUMelrBZ8BQHeyPi3PVokty.webp' },
+  { id: 1, name: 'Kashmir Tour Package', emoji: '🏔️', image: '/images/kashmir.jpeg' },
+  { id: 2, name: 'Himachal Tour Package', emoji: '🏞️', image: '/images/hima.jpeg' },
+  { id: 3, name: 'Masoori Tour Package', emoji: '⛰️', image: '/images/masoori.jpg' },
+  { id: 4, name: 'Uttarakhand Tour Package', emoji: '🌲', image: '/images/uttrakhand.jpeg' },
+  { id: 5, name: 'Delhi | Agra Tour Package', emoji: '🕌', image: '/images/taj.jpeg' },
+  { id: 6, name: 'Goa Tour Package', emoji: '🏖️', image: '/images/goa.jpeg' },
+  { id: 7, name: 'Rajasthan Tour Package', emoji: '🏰', image: '/images/raja.jpeg' },
+  { id: 8, name: 'Leh Ladakh Tour Package', emoji: '🗻', image: '/images/leh.jpeg' },
+  { id: 9, name: 'Kerala Tour Package', emoji: '🌴', image: '/images/kerala.webp' },
 ];
 
 const spiritualPackages = [
-  { id: 1, name: 'Char Dham Tour Package', emoji: '⛩️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.18.22%20PM-XtMGyLvuw4r3z442iXE3CwjaW4prw3.jpeg' },
-  { id: 2, name: 'Shirdi Tour Package', emoji: '🕉️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Sai-Baba-Samadhi-Mandir-t6BGiKnHtW36jf6Hdu9bGjhjaF3G82.jpg' },
-  { id: 3, name: 'Vaishno Devi Tour Package', emoji: '🙏', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.53.11%20PM-MsA5vWowA9foKOxpbHC0ggkbx0FB94.jpeg' },
-  { id: 4, name: 'Amarnath Tour Package', emoji: '⛩️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.51.52%20PM-HLAJ2iQnNknCkWPev6jE16Vv8vXVve.jpeg' },
-  { id: 5, name: 'Haridwar Tour Package', emoji: '🌊', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.53.47%20PM-XSdDcUtI2KKNWKaSbdc8XW7fjIYuk0.jpeg' },
-  { id: 6, name: 'Varanasi Tour Package', emoji: '🕯️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Early-Morning-Boat-Ride-in-Varansi-51tX9BGSacUe5nlAGwFW8ZzUkTDAib.webp' },
+  { id: 1, name: 'Char Dham Tour Package', emoji: '⛩️', image: '/images/chardham.jpeg' },
+  { id: 2, name: 'Shirdi Tour Package', emoji: '🕉️', image: '/images/sirdi.jpg' },
+  { id: 3, name: 'Vaishno Devi Tour Package', emoji: '🙏', image: '/images/vaishnodevi.jpeg' },
+  { id: 4, name: 'Amarnath Tour Package', emoji: '⛩️', image: '/images/amarnath.jpeg' },
+  { id: 5, name: 'Haridwar Tour Package', emoji: '🌊', image: '/images/haridwar.jpeg' },
+  { id: 6, name: 'Varanasi Tour Package', emoji: '🕯️', image: '/images/varanasi.webp' },
 ];
 
 export default function TourPackagesSection() {
