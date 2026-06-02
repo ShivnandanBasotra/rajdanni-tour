@@ -1,22 +1,34 @@
 const galleryImages = [
   {
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.22.08%20PM-BMJ0fA6X9OvWQK4qwemrBNsXc7eHp0.jpeg',
+    image: '/images/4.jpeg',
     title: 'Festival Celebration',
   },
   {
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.22.07%20PM-iSK9JJmFtL9tcSG67RfuT9eZQ8u2tj.jpeg',
+    image: '/images/3.jpeg',
     title: 'Heritage Visit',
   },
   {
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.22.07%20PM%20%282%29-bYj18vILEhSSiUgRR8XL7UmB8U4jRM.jpeg',
+    image: '/images/2.jpeg',
     title: 'Pahalgam Valley',
   },
   {
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.22.07%20PM%20%281%29-Q6kWi9kkbjd09W5bFRDglfjFJWjRFM.jpeg',
+    image: '/images/1.jpeg',
     title: 'Bus Journey',
   },
   {
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.22.08%20PM%20%281%29-UXEQ5Hlg75JPpuReq0PevcF4KqdTVJ.jpeg',
+    image: '/images/6.jpeg',
+    title: 'kashmir',
+  },
+  {
+    image: '/images/5.jpeg',
+    title: 'Friends',
+  },
+  {
+    image: '/images/7.jpeg',
+    title: 'Friends',
+  },
+  {
+    image: '/images/8.jpeg',
     title: 'Friends',
   },
 ];
