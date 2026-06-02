@@ -15,6 +15,7 @@ import BookingSection from '@/components/BookingSection';
 import GallerySection from '@/components/GallerySection';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+import PropertiesSection from '@/components/Properties';
 
 export default function Page() {
   return (
@@ -32,6 +33,7 @@ export default function Page() {
       <CTABanner />
       <BookingSection />
       <GallerySection />
+      <PropertiesSection/>
       <Footer />
       <FloatingWhatsApp />
     </main>
