@@ -22,7 +22,7 @@ export default function FeaturesStrip() {
         </div>
 
         {/* Main Content */}
-        <div className="space-y-4 md:space-y-6 border-t-2 border-[#FBBF24] pt-8 md:pt-12">
+        {/* <div className="space-y-4 md:space-y-6 border-t-2 border-[#FBBF24] pt-8 md:pt-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#FBBF24] leading-tight text-balance">
             Rajdanni Tour Packages
           </h1>
@@ -34,7 +34,7 @@ export default function FeaturesStrip() {
           <p className="text-sm sm:text-base md:text-lg text-gray-400 leading-relaxed max-w-3xl">
             From serene weekend escapes to immersive cultural holidays and thrilling road adventures, our curated collection of tours invites you to discover the world beyond the ordinary. At Rajdanni Travels, we blend comfort, adventure, and local insight to bring you travel experiences that leave lasting memories.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

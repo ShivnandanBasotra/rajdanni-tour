@@ -46,6 +46,11 @@ export default function Footer() {
                 </p>
                 <p>
                   <a href="tel:+919796755550" className="hover:text-[#FBBF24] transition-colors break-all">
+                    +91 9149902323
+                  </a>
+                </p>
+                <p>
+                  <a href="tel:+919796755550" className="hover:text-[#FBBF24] transition-colors break-all">
                     +91 9796755550
                   </a>
                 </p>

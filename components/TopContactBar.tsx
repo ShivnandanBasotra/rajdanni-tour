@@ -7,6 +7,9 @@ export default function TopContactBar() {
           <div className="hidden sm:flex items-center gap-2 text-sm md:text-base font-bold whitespace-nowrap">
             <span className="text-[#FBBF24]">📞</span> +91 91495 11328
           </div>
+          <div className="hidden sm:flex items-center gap-2 text-sm md:text-base font-bold whitespace-nowrap">
+            <span className="text-[#FBBF24]">📞</span> +91 9149902323
+          </div>
           {/* Second number - always visible */}
           <div className="flex items-center gap-2 text-sm md:text-base font-bold whitespace-nowrap">
             <span className="text-[#FBBF24]">📞</span> +91 9796755550

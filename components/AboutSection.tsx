@@ -21,7 +21,7 @@ export default function AboutSection() {
 
             <div className="space-y-1.5 md:space-y-2 text-base sm:text-base md:text-lg text-[#666666] leading-relaxed">
               <p>
-                At <strong className="text-[#1A1A1A]">Rajdhani Travel</strong>, we specialize in crafting <strong className="text-[#1A1A1A]">Customized Travel Experiences</strong> that fulfill the unique dreams and desires of our valued clients.
+                At <strong className="text-[#1A1A1A]">Rajdanni Travel</strong>, we specialize in crafting <strong className="text-[#1A1A1A]">Customized Travel Experiences</strong> that fulfill the unique dreams and desires of our valued clients.
               </p>
               
               <p>
@@ -29,7 +29,7 @@ export default function AboutSection() {
               </p>
               
               <p>
-                From <strong className="text-[#1A1A1A]">Scenic Domestic Escapes</strong> to <strong className="text-[#1A1A1A]">Adventurous International Tours</strong>, Rajdhani Travel is your <strong className="text-[#1A1A1A]">Reliable Travel Partner</strong>.
+                From <strong className="text-[#1A1A1A]">Scenic Domestic Escapes</strong> to <strong className="text-[#1A1A1A]">Adventurous International Tours</strong>, Rajdanni Travel is your <strong className="text-[#1A1A1A]">Reliable Travel Partner</strong>.
               </p>
               
               <p>
@@ -37,7 +37,7 @@ export default function AboutSection() {
               </p>
               
               <p>
-                Choose <strong className="text-[#1A1A1A]">Rajdhani Travel</strong> for a journey that&apos;s more than just a trip—it&apos;s an experience curated with care, passion, and expertise.
+                Choose <strong className="text-[#1A1A1A]">Rajdanni Travel</strong> for a journey that&apos;s more than just a trip—it&apos;s an experience curated with care, passion, and expertise.
               </p>
             </div>
           </div>
