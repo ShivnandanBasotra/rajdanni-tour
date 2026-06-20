@@ -20,8 +20,7 @@ import PropertiesSection from '@/components/Properties';
 export default function Page() {
   return (
     <main className="bg-[#FFF8F0]">
-      <div>Your Godaddy domain name is not working. Please change dns by logging into godaddy.com</div>
-      {/* <TopContactBar />
+      <TopContactBar />
       <Header />
       <HeroSection />
       <AboutSection />
@@ -36,7 +35,7 @@ export default function Page() {
       <GallerySection />
       <PropertiesSection/>
       <Footer />
-      <FloatingWhatsApp /> */}
+      <FloatingWhatsApp />
     </main>
   );
 }
